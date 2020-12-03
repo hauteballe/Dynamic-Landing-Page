@@ -1,2 +1,2 @@
 # Dynamic-Landing-Page    
-https://hauteballe.github.io/Dynamic-Landing_Page
+https://hauteballe.github.io/Dynamic-Landing-Page
