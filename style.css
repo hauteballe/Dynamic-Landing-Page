@@ -16,20 +16,44 @@ body {
 }
 
 #time {
-    font-size: 8rem;
+  font-size: 8rem;
+}
+
+.greeting {
+  display: flex;
+  justify-content: center;
 }
 
 h1 {
-    margin-bottom: 3rem;
+  margin: 3rem auto;
 }
 
 h2 {
-    margin-bottom: 0.5rem;
-    opacity: 0.6;
+  opacity: 0.6;
+  margin: 0.5rem auto;
+}
+
+input {
+  border: none;
+  background-color: transparent;
+  font-weight: bold;
+  font-family: inherit;
+  font-size: 2em;
+  opacity: 50%;
+  outline: none;
+}
+
+.input-name {
+  padding-left: 20px;
+}
+
+.input-focus {
+  text-align: center;
+  font-size: 30px;
 }
 
 @media (max-width: 700px) {
-    #time {
-        font-size: 6rem; 
-    }
+  #time {
+    font-size: 6rem;
+  }
 }

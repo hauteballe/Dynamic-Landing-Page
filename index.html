@@ -10,15 +10,15 @@
 </head>
 <body>
     <time id="time"></time>
-    <h1>
-        <span id="greeting"></span>
-        <span id="name" contenteditable="true">
-        </span>
-    </h1>
+    <div class="greeting">
+        <h1 id="greeting"></h1>
+        <input data-key="name" size="15" class="input-name" placeholder="Enter your name"/>
+    </div>
 
     <h2>What Is Your Focus For Today?</h2>
-    <h2 id="focus" contenteditable="true"></h2>
+    <input data-key="focus" class="input-focus" placeholder="Enter Focus">
 
+    <script src="const.js"></script>
     <script src="main.js"></script>
 </body>
 </html>
