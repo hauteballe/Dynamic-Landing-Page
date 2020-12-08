@@ -2,9 +2,6 @@ const time = document.getElementById("time");
 const greeting = document.getElementById("greeting");
 const inputElements = document.querySelectorAll("input[data-key]");
 
-// Options
-const showAmPm = true;
-
 // Show Time
 function showTime() {
   let today = new Date();
@@ -16,7 +13,8 @@ function showTime() {
   const amPm = hour >= 12 ? "PM" : "AM";
 
   // 12hr Format
-  newHour = hour % 12 || 12;
+  const newHour = hour % 12 || 12;
+
   //Output Time
   time.innerHTML = `${newHour}<span>:</span>${addZero(
     min
